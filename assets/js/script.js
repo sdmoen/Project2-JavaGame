@@ -3,16 +3,16 @@ var userScore = 0;
 var computerScore = 0;
 var userScore_span = document.getElementById('user-score');
 var computerScore_span = document.getElementById('computer-score');
-const scoreBoard_div = document.querySelector('.score-board');
-const result_div = document.querySelector('.result >p');
-const rock_div = document.getElementById('rock');
-const paper_div = document.getElementById('paper');
-const scissors_div = document.getElementById('scissors');
+let scoreBoard_div = document.querySelector('.score-board');
+let result_div = document.querySelector('.result >p');
+let rock_div = document.getElementById('rock');
+let paper_div = document.getElementById('paper');
+let scissors_div = document.getElementById('scissors');
 
 // function for random pick from computer
 function getComputerChoice(){
-    const choices = ['rock', 'paper', 'scissors'];
-    const randomNumber= Math.floor(Math.random() *3);
+    let choices = ['rock', 'paper', 'scissors'];
+    let randomNumber= Math.floor(Math.random() *3);
     return choices[randomNumber];
 }
 
@@ -41,7 +41,7 @@ function draw(userChoice, computerChoice){
 //  compare values of each case.
 
 function game(userChoice) {
-    const computerChoice = getComputerChoice();
+    let computerChoice = getComputerChoice();
     switch (userChoice + computerChoice){
     case 'rockscissors':
     case 'paperrock':
@@ -66,15 +66,15 @@ function game(userChoice) {
 function main(){
     rock_div.addEventListener('click', function(){
         game('rock');
-    })
+    });
 
     paper_div.addEventListener('click', function(){
         game('paper');
-    })
+    });
 
     scissors_div.addEventListener('click', function(){
         game('scissors');
-    })
+    });
     }
 
     main();
