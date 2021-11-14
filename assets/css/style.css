@@ -2,11 +2,131 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: Mochiy Pop P One;
+    font-weight:400;
+    letter-spacing: 10px;
+    color:grey;
 }
 
 body {
     background:#d0e2e26e;
-    font-family: Mochiy Pop P One;
-    font-weight:400;
-    letter-spacing: 10px;
 }
+
+/* Navigation menu */
+
+#menu {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #menu,
+  #title {
+    line-height: 70px;
+  }
+  
+  #menu li {
+    list-style-type: none;
+    margin-right: 2%;
+  }
+  
+  #menu a:hover {
+    border-bottom: 6px solid rgb(85, 160, 204);
+    border-radius: 3px ;
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  /* score_board */
+
+  .score-board{
+    border:3px solid rgb(85, 160, 204);
+    width:200px;
+    margin:20px auto;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    position:relative;
+  }
+  
+  .badge{
+  background-color: lightblue;
+  font-size: 14px;
+  padding: 2px 10px;
+  }
+  
+  #user-label{
+  position:absolute;
+  top:30px;
+  left:-105px;
+  }
+  
+  #comp-label{
+    position:absolute;
+    top:30px;
+    right:-125px;
+  }
+
+  .result {
+    font-size:20px;
+    color:white;
+}
+
+.result >p{
+    text-align: center;
+    font-weight:bold;
+}
+
+  /* game selection */
+  .choices{
+    margin-top: 50px;
+    text-align: center;
+}
+  .choice {
+    border:4px solid white;
+    border-radius:50%;
+    margin: 20px 20px;
+    padding:10px;
+    display:inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background:#24272e;
+}
+
+#action-message{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 20px;
+}
+
+  /* Footer_socialMedia_links */
+  
+  .networks {
+    text-align: center;
+     display: block;
+     list-style-type: none;
+}
+
+    .networks i {
+    font-size: 160%;
+    color: #474747;
+}
+
+    #copyright {
+    text-align: center;
+     
+} 
