@@ -1,4 +1,12 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body {
     background:#d0e2e26e;
-    
+    font-family: Mochiy Pop P One;
+    font-weight:400;
+    letter-spacing: 10px;
 }
