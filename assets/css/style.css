@@ -115,6 +115,14 @@ header{
     margin: 50px 20px;
 }
 
+#samurai{
+position: relative;
+}
+
+#samuraiarmour{
+position: absolute;
+}
+
   /* Footer_socialMedia_links */
   
   .networks {
