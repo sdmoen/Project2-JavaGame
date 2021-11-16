@@ -11,6 +11,15 @@ body {
 header{
   color: #474747;
 }
+
+/*Main image*/
+
+.main_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Navigation menu */
 
 #menu {
