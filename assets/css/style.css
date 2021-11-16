@@ -144,3 +144,11 @@ header{
     text-align: center;
      
 } 
+
+/* history page video  */
+
+.video{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
