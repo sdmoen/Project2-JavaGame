@@ -1,7 +1,4 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
   font-family: Mochiy Pop P One;
     font-weight:400;
     letter-spacing: 10px;
@@ -51,11 +48,12 @@ header{
   /* score_board */
 
   .score-board{
-    border:3px solid rgb(85, 160, 204);
+    border-bottom:3px solid rgb(85, 160, 204);
+    border-top:3px solid rgb(85, 160, 204);
+    border-radius: 20px;
     width:200px;
     margin:20px auto;
     font-size: 40px;
-    border-radius: 20px;
     text-align: center;
     padding: 15px 20px;
     position:relative;
@@ -87,6 +85,7 @@ header{
 .result >p{
     text-align: center;
     font-weight:bold;
+
 }
 
   /* game selection */
@@ -105,22 +104,21 @@ header{
 
 .choice:hover {
     cursor: pointer;
-    background:#24272e;
+    background:rgb(85, 160, 204);
 }
 
 #action-message{
     text-align: center;
-    font-weight: bold;
     font-size: 20px;
-    margin: 50px 20px;
+    margin: 80px 20px;
+    border-top:3px solid rgb(85, 160, 204);
+    border-radius: 20px;
 }
 
 #samurai{
-position: relative;
-}
-
-#samuraiarmour{
-position: absolute;
+  position: relative;
+  border-bottom:3px solid rgb(85, 160, 204);
+   border-radius: 20px;
 }
 
   /* Footer_socialMedia_links */
@@ -129,9 +127,6 @@ position: absolute;
     text-align: center;
      display: block;
      list-style-type: none;
-}
-
-    .networks i {
     font-size: 160%;
     color: #474747;
 }
