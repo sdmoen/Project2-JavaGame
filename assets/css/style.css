@@ -157,5 +157,5 @@ header{
 /* contact page */
 
 .feedback {
-  
+  border-top:3px solid rgb(85, 160, 204);
 }
