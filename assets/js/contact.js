@@ -1,1 +1,3 @@
-console.log('js_script')
+document.addEventListener('DOMcontentLoaded', function(){
+    DocumentType.getElementbyId
+})
