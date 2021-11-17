@@ -131,6 +131,12 @@ header{
 }
 
   /* Footer_socialMedia_links */
+
+  footer{
+  border-bottom:3px solid rgb(85, 160, 204);
+  border-radius: 20px;
+  margin:100px
+  }
   
   .networks {
     text-align: center;
@@ -156,6 +162,13 @@ header{
 
 /* contact page */
 
-.feedback {
+
+#contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   border-top:3px solid rgb(85, 160, 204);
+  border-radius: 20px;
 }
