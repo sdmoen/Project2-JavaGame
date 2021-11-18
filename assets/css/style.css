@@ -171,3 +171,16 @@ header{
   border-top:3px solid rgb(85, 160, 204);
   border-radius: 20px;
 }
+
+
+@media screen and (max-width: 1200px) {
+  #menu {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  }
+
