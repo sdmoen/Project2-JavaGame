@@ -1,12 +1,12 @@
 document.addEventListener('DOMcontentLoaded', function(){
-    DocumentType.getElementbyId('form').addEventListener('submit',function(event){
+    document.getElementbyId('form').addEventListener('submit', function (event){
         event.preventDefault();
         emailjs.init("user_855GYOKzNke21zoGuscrq");
-        emailjs.sendForm('form', this)
+        emailjs.sendForm('service_0gpeva2','template_w8a42b5' ,this)
         .then(function(){
             console.log('SUCCESS!');
         }, function(error) {
-            consolwe.log('FAILED...', error);
+            console.log('FAILED...', error);
         }
         )
     })
