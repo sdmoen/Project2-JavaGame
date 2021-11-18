@@ -29,7 +29,7 @@ function lose(userChoice, computerChoice){
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = userChoice +  ' beats '  + computerChoice + '.You Lost!';
+    result_div.innerHTML = computerChoice +  ' beats '  + userChoice + '.You Lost!';
 }
 
 // function for draw with on screen word description.
