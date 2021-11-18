@@ -143,10 +143,13 @@ header{
     color: #474747;
 }
 
-    #copyright {
-    text-align: center;
-    font-size:1rem;
-     
+#copyright {
+  text-align: center;
+  font-size:1rem;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+   
 } 
 
 /* history page video  */
@@ -184,3 +187,56 @@ header{
   }
   }
 
+  @media screen and (max-width: 320px) {
+    #user-label{
+      position:absolute;
+      top:10px;
+      left:-20px;
+      letter-spacing:4px
+      }
+      
+      #comp-label{
+        position:absolute;
+        top:60px;
+        right:-30px;
+        letter-spacing:4px
+      }
+    
+      .result {
+        color:white;
+    }
+    
+    .result >p{
+        text-align: center;
+        font-weight:bold;
+        font-size:12px
+    
+    }
+    
+      /* game selection */
+
+      .choices{
+        text-align: center;
+    }
+      .choice {
+        border:4px solid white;
+        border-radius:50%;
+        padding:10px;
+        transition: all 0.3s ease;
+    }
+    
+    .choice:hover {
+        cursor: pointer;
+        background:rgb(85, 160, 204);
+    }
+    
+    #action-message{
+        text-align: center;
+        border-top:3px solid rgb(85, 160, 204);
+        border-radius: 20px;
+        font-size:12px
+    }
+    .main_image{
+      display: none;
+    }
+  }
