@@ -28,11 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  #menu,
-  #title {
-    line-height: 70px;
+    
   }
   
   #menu li {
