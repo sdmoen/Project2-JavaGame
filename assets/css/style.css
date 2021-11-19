@@ -182,6 +182,9 @@ header{
     justify-content: center;
     flex-direction: column;
   }
+  #img_2{
+    display:none;
+  }
   }
 
   @media screen and (max-width: 320px) {
@@ -235,5 +238,8 @@ header{
     }
     .main_image{
       display: none;
+    }
+    #img_2{
+      display:none;
     }
   }
