@@ -82,6 +82,11 @@ header{
   justify-content: center;
 }
 
+#rules{
+  position:relative;
+  left:43%
+}
+
 /* Navigation menu */
 
 #menu {
