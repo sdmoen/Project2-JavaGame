@@ -48,7 +48,7 @@ header{
   left:10%;
   width: 80%;
   height: 80%;
-  background: rgba(73, 166, 233, 0.5);
+  background: rgb(234 242 242);
   border:solid black;
   transition: var(--transition);
   visibility: hidden;
