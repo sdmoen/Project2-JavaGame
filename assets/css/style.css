@@ -42,12 +42,12 @@ header{
    display:flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
  margin-top:50px;
   position: absolute;
-  top: 5%;
+  bottom: 5%;
   left:10%;
-  width: 80%;
-  height: 80%;
+  right:10%;
   background: rgb(234 242 242);
   border:solid black;
   transition: var(--transition);
@@ -58,6 +58,9 @@ header{
 .open-modal {
   visibility: visible;
   z-index: 10;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .close-btn {
