@@ -43,9 +43,9 @@ header{
   align-items: center;
   justify-content: center;
   flex-direction: column;
- margin-top:50px;
+/*  margin-top:50px; */
   position: absolute;
-  bottom: 5%;
+/*   bottom: 5%; */
   left:10%;
   right:10%;
   background: rgb(234 242 242);
@@ -198,7 +198,7 @@ header{
 
   footer{
     border-radius: 20px;
-    height:100px;
+/*     height:150px; */
     background-color:rgb(173 222 250);
   }
   
