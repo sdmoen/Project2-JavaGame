@@ -1,107 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- googlefont_fontawesome_stylesheets -->
+        <!-- googlefont_fontawesome_stylesheets -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock Scissors Paper Java Game</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Rock Scissors Paper Java Game</title>
+    </head>
+    <body>
+        <!-- header and nav menu -->
 
-</head>
-<body>
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
 
-    <!-- header and nav menu -->
-    
-    <header>
-    
-    <nav>
-        <ul id="menu">
-            <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
 
-            <li><a href="history.html">History</a></li>
+                    <li><a href="game.html">Game</a></li>
 
-            <li><a href="game.html">Game</a></li>
-            
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav> 
-</header> 
-<div>
-    <h1 > Rock Scissors Paper, Challenge the Samurai! </h1>
-</div>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <h1>Rock Scissors Paper, Challenge the Samurai!</h1>
+        </div>
 
+        <div class="main_image"><img src="assets/images/samuraiwarrior.jpeg" alt="" /><img id="img_2" src="assets/images/samuriwarrior_2.jpeg" alt="" /></div>
 
-<div class ='main_image'>
-<img src='assets/images/samuraiwarrior.jpeg' alt=''><img id='img_2' src='assets/images/samuriwarrior_2.jpeg' alt =''>
-</div>
+        <div class="banner">
+            <button class="btn modal-btn">Click here for game rules!</button>
+        </div>
 
+        <!-- modal -->
+        <div class="modal-overlay">
+            <div class="w3-container">
+                <h1>Rules: Rock, Paper, Scissors!</h1>
+                <ul>
+                    <li>
+                        The game is played with three possible hand signals that represent a rock, paper, and scissors. The rock is a closed fist; paper is a flat hand with fingers and thumb extended and the palm facing downward; and
+                        scissors is a fist with the index and middle fingers fully extended toward the opposing player. Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same
+                        hand signal, it is considered a tie and play resumes until there is a clear winner.
+                    </li>
+                    <br />
+                    <li>
+                        The hand signals are given simultaneously by both players. The ritual used to get players in sync with each other so they can deliver their throws simultaneously is called the prime. This action requires retracting
+                        the player’s fist from full-arm extension towards the shoulder and then back to full extension. To ensure a fair match the players must be in sync with their primes. Players must determine before play how many times
+                        they pump their arms during the prime phase, usually two or three times before the final delivery of their thro
+                    </li>
+                    <br />
+                    <li>
+                        Finger-flashing games have been known to exist since ancient times, however, the origins of the game remain obscure. The earliest known reference is found on a wall painting in a tomb at the Beni Hasan burial site in
+                        Egypt that dates back to around 2000 B.C. Centuries later on a Japanese scroll the game was also found. Versions of the game are found in cultures around the world. It is still very popular in Japan, where it is
+                        called jan-ken or jankenpon.
+                    </li>
+                    <br />
+                    <img id="rules" src="assets/images/rock-paper-scissors rules.png" />
+                </ul>
 
-<div class="banner">
-    
-    <button class="btn modal-btn">Click here for game rules!</button>
-  </div>
+                <button class="close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
 
-<!-- modal -->
-<div class="modal-overlay">
-  <div class="w3-container">
-      <h1>Rules: Rock, Paper, Scissors!</h1>
-      <ul>
-          
-        <li>The game is played with three possible hand signals that represent a rock, 
-            paper, and scissors. The rock is a closed fist; paper is a flat hand with 
-            fingers and thumb extended and the palm facing downward; and scissors is a 
-            fist with the index and middle fingers fully extended toward the opposing 
-            player. Rock wins against scissors; paper wins against rock; and scissors 
-            wins against paper. If both players throw the same hand signal, it is considered 
-            a tie and play resumes until there is a clear winner.</li> 
-            <br>
-        <li>The hand signals are given simultaneously by both players. The ritual used 
-            to get players in sync with each other so they can deliver their throws simultaneously 
-            is called the prime. This action requires retracting the player’s fist from full-arm 
-            extension towards the shoulder and then back to full extension. To ensure a fair match 
-            the players must be in sync with their primes. Players must determine before play how 
-            many times they pump their arms during the prime phase, usually two or three times before 
-            the final delivery of their thro</li> 
-            <br>
-        <li>Finger-flashing games have been known to exist since ancient times, however,
-            the origins of the game remain obscure. The earliest known reference is found on a 
-            wall painting in a tomb at the Beni Hasan burial site in Egypt that dates back to 
-            around 2000 B.C. Centuries later on a Japanese scroll the game was also found. 
-            Versions of the game are found in cultures around the world. It is still very 
-            popular in Japan, where it is called jan-ken or jankenpon.</li>    
-            <br>
-<img id="rules" src="assets/images/rock-paper-scissors rules.png">
-      </ul>
-    
-    <button class="close-btn">
-    <i class="fas fa-times"></i></button>
-  </div>
-</div>
+        <footer>
+            <ul class="networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
 
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
 
+                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
 
-    <footer>
-        <ul class="networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        
-                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        
-                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-        
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-        <h2 id="copyright"> Copyright 2021 All Rights Reserved </h2>
-        </footer>  
-        
-        <script src='assets/js/index.js'></script>
-        </body>
-        </html>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            <h2 id="copyright">Copyright 2021 All Rights Reserved</h2>
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
