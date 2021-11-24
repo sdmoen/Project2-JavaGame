@@ -297,6 +297,12 @@ header{
         cursor: pointer;
         background:rgb(85, 160, 204);
     }
+
+    .outcome >p{
+      text-align: center;
+      font-weight:bold;
+      font-size:12px
+  }
     
     #message {
         text-align: center;
