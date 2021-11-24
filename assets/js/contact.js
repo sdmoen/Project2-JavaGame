@@ -3,27 +3,27 @@
  * Code written from the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
  */
 
-(function() {
+ (function () {
     // https://dashboard.emailjs.com/admin/integration
-    emailjs.init('user_855GYOKzNke21zoGuscrq');
+    emailjs.init("user_855GYOKzNke21zoGuscrq");
 })();
 
-window.onload = function() {
-    document.getElementById('form').addEventListener('submit', function(event) {
+window.onload = function () {
+    document.getElementById("form").addEventListener("submit", function (event) {
         event.preventDefault();
-        emailjs.sendForm('service_0gpeva2','template_w8a42b5', this)
-            .then(function() {
-                console.log('SUCCESS!');
-            }, function(error) {
-                console.log('FAILED...', error);
-            });
-            toggleMessage();
+        emailjs.sendForm("service_0gpeva2", "template_w8a42b5", this).then(
+            function () {
+                console.log("SUCCESS!");
+            },
+            function (error) {
+                console.log("FAILED...", error);
+            }
+        );
+        toggleMessage();
     });
-}
+};
 
-function toggleMessage(){
-    let html = 
-    `<p class='message'>Your feedback is much appreciated</p>`
-    ;
-    document.getElementById('form').innerHTML = html;
+function toggleMessage() {
+    let html = `<p class='message'>Your feedback is much appreciated</p>`;
+    document.getElementById("form").innerHTML = html;
 }
