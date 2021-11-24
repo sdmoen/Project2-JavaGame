@@ -1,10 +1,10 @@
-const modalBtn = document.querySelector(".modal-btn");
-const modal = document.querySelector(".modal-overlay");
-const closeBtn = document.querySelector(".close-btn");
+let textBtn = document.querySelector(".text-btn");
+let open = document.querySelector(".overtext");
+let removeTextBtn = document.querySelector(".removetext-btn");
 
-modalBtn.addEventListener("click", function () {
-    modal.classList.add("open-modal");
+textBtn.addEventListener("click", function () {
+    open.classList.add("opentext");
 });
-closeBtn.addEventListener("click", function () {
-    modal.classList.remove("open-modal");
+removeTextBtn.addEventListener("click", function () {
+    open.classList.remove("opentext");
 });

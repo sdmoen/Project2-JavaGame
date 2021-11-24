@@ -23,6 +23,8 @@ window.onload = function () {
     });
 };
 
+// function to toggle screen to display thank you message when form sent sucessfully
+
 function toggleMessage() {
     let html = `<p class='message'>Your feedback is much appreciated</p>`;
     document.getElementById("form").innerHTML = html;

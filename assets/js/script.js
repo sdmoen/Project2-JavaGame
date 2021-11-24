@@ -1,61 +1,60 @@
-var userScore = 0;
-var computerScore = 0;
-var userScore_span = document.getElementById("user-score");
-var computerScore_span = document.getElementById("computer-score");
-let scoreBoard_div = document.querySelector(".score-board");
-let result_div = document.querySelector(".result >p");
-let rock_div = document.getElementById("rock");
-let paper_div = document.getElementById("paper");
-let scissors_div = document.getElementById("scissors");
+var player_Score = 0;
+var samurai_Score = 0;
+var playerScore = document.getElementById("player-score");
+var samuraiScore = document.getElementById("samurai-score");
+let gameResult = document.querySelector(".outcome >p");
+let rock = document.getElementById("rock");
+let paper = document.getElementById("paper");
+let scissors = document.getElementById("scissors");
 
 // function for random pick from computer
-function getComputerChoice() {
-    let choices = ["rock", "paper", "scissors"];
+function getSamuraiChoice() {
+    let weapons = ["rock", "paper", "scissors"];
     let randomNumber = Math.floor(Math.random() * 3);
-    return choices[randomNumber];
+    return weapons[randomNumber];
 }
 
 // function for winner with on screen word description.
-function win(userChoice, computerChoice) {
-    userScore++;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = userChoice + " beats " + computerChoice + ".You Win!";
+function win(playerChoice, samuraiChoice) {
+    player_Score++;
+    playerScore.innerHTML = player_Score;
+    samuraiScore.innerHTML = samurai_Score;
+    gameResult.innerHTML = playerChoice + " Defeats " + samuraiChoice + ".You Win!";
 }
 
 //function for losing with on screen word description.
-function lose(userChoice, computerChoice) {
-    computerScore++;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = computerChoice + " beats " + userChoice + ".You Lost!";
+function lose(playerChoice, samuraiChoice) {
+    samurai_Score++;
+    playerScore.innerHTML = player_Score;
+    samuraiScore.innerHTML = samurai_Score;
+    gameResult.innerHTML = samuraiChoice + " Defeats " + playerChoice + ".You Lost!";
 }
 
 // function for draw with on screen word description.
-function draw(userChoice, computerChoice) {
-    result_div.innerHTML = userChoice + " equals " + computerChoice + ".Its a Draw!";
+function draw(playerChoice, samuraiChoice) {
+    gameResult.innerHTML = playerChoice + " equals " + samuraiChoice + ".Its a Draw!";
 }
 
 // function for player vs computer outcomes using switch statements to
 //  compare values of each case.
 
-function game(userChoice) {
-    let computerChoice = getComputerChoice();
-    switch (userChoice + computerChoice) {
+function game(playerChoice) {
+    let samuraiChoice = getSamuraiChoice();
+    switch (playerChoice + samuraiChoice) {
         case "rockscissors":
         case "paperrock":
         case "scissorspaper":
-            win(userChoice, computerChoice);
+            win(playerChoice, samuraiChoice);
             break;
         case "rockpaper":
         case "paperscissors":
         case "scissorsrock":
-            lose(userChoice, computerChoice);
+            lose(playerChoice, samuraiChoice);
             break;
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
-            draw(userChoice, computerChoice);
+            draw(playerChoice, samuraiChoice);
             break;
     }
 }
@@ -63,15 +62,15 @@ function game(userChoice) {
 //function for main game using eventlistener with event 'click'
 
 function main() {
-    rock_div.addEventListener("click", function () {
+    rock.addEventListener("click", function () {
         game("rock");
     });
 
-    paper_div.addEventListener("click", function () {
+    paper.addEventListener("click", function () {
         game("paper");
     });
 
-    scissors_div.addEventListener("click", function () {
+    scissors.addEventListener("click", function () {
         game("scissors");
     });
 }
