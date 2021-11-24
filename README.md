@@ -1,4 +1,4 @@
-m http<H1>Rock, Scissors, Paper</H1>
+<H1>Rock, Scissors, Paper</H1>
 
 
 ## Table of Content

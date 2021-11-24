@@ -43,9 +43,7 @@ header{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-/*  margin-top:50px; */
   position: absolute;
-/*   bottom: 5%; */
   left:10%;
   right:10%;
   background: rgb(234 242 242);
@@ -54,6 +52,7 @@ header{
   visibility: hidden;
   z-index: -10;
 }
+
 /* OPEN/CLOSE Rules */
 .open-modal {
   visibility: visible;
@@ -198,7 +197,6 @@ header{
 
   footer{
     border-radius: 20px;
-/*     height:150px; */
     background-color:rgb(173 222 250);
   }
   
