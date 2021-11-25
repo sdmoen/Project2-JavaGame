@@ -133,57 +133,57 @@ The page is structured in a user-friendly and easy-to-learn manner. Upon arrivin
 - EmailJS
 
 ## Features
-The site consists of four pages and ##? features
+The site consists of four pages and one features on each page.
 
-### Header
+### Nav Menu
 - Featured on all pages
-- Consists of the game logo and game title
+- Consists of Home, History, Game and Contact
 
-<details><summary>Header</summary>
-<img src="">
+<details><summary>NavMenu</summary>
+<img src="/workspace/Project2-JavaGame/assets/images/nav_menu.JPG">
 </details>
 
 ### Footer
 - Featured on all pages
-- Consists of a section providing social media links and a link to the contact form
-- User story related: 8
+- Consists of a section providing social media links
 
 <details><summary>Footer</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/footer.JPG">
 </details>
 
 ### Home screen
-- Provides an option to choose between three different game difficulties.
-- User story related: 1
+- Provides an option to click an open modal providing rules of the game in text.
+- Provides a striking image of a mirrored samurai warrior which catches the attention of the player. An aludes to a combative game.
 
 <details><summary>Home screen</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/home_screen.JPG">
+<img src="/workspace/Project2-JavaGame/assets/images/rules.JPG">
 </details>
 
 ### Game screen
 - Consists of :
-    - Game difficulty that is currently being played
+    - Player and Samurai banners
     - A section with the current score
-    - User stories related: 
+    - Game icons which can be selected
+    - samurai image 
 
 <details><summary>Game screen</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/game_screen.JPG">
 </details>
 
 ### Contact form
 - A way for the user to provide feedback
-- User story related 7 
 
 <details><summary>Contact Form</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/contact_screen.JPG">
 </details>
 
 ### Form confirmation
-- Provides the user with feedback after the form has been submitted 
-- User story related: 6
+- Provides the user with a thank you message after the form has been submitted 
 
 <details><summary>Form confirmation</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/feedback_screen.JPG">
+<img src="/workspace/Project2-JavaGame/assets/images/email_received.JPG">
 </details>
 
 ## Validation
