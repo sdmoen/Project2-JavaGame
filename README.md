@@ -40,77 +40,76 @@
 
 
 ### User Goals
-- 
-- 
+- Play the game and learn about the origins of the game from the far east.
 
 ### Site Owner Goals
-- Creating a fun and engaging game that users will want to play again and again.
-- The game should be fully responsive to be able to be played on different devices.
+- Creating a fun and engaging game that users will want to play while also learning the history behind this well known game.
+- The game, history video and text modal should be fully responsive to be played on different devices.
 
 ## User Experience
 
 ### Target Audience
-- casual gamers
-- 
-- A quick and easy yet engaging game 
+- A simple and quick engaging game 
 
 ### User Requirements and Expectations
-- A simple and intuitive navigation system
+- An easy to use navigation system with retro styling
 - Quick, easy, and fun to play
 - Links and functions that work as expected
 - Good presentation and a visually appealing design regardless of screen size
 - An easy way to leave feedback
-- Accessibility
+
 
 ### User Stories
-1. As a user, 
-2. As a user, 
-3. As a user,  
-4. As a user,  I want confirmation that my feedback was sent
+1. As a user, i will find an easy to play game. 
+2. As a user, i will find information about the origins of the game.
+4. As a user, i will find scores tallied in a score area.
+3. As a user, i will find styling with links to one the believed origin country of the game.
+4. As a user,  I will find confirmation that my feedback was sent.
 
 
 ### Site Owner Stories
-7. As a site owner, I want users to be able to contact us 
+7. As a site owner, I want users to be able to contact us with feedback
 8. As a site owner, I want users to be able to find us on social media.
 
 ## Design
 
 ### Design Choices
-The game was designed to have a 
+The game was designed to have a retro styling with a nod to past asian computer games.
 
 ### Colour
  
 
 <details><summary>Colour palette</summary>
-<img src="">
+- inspiration taken from colorhunt
+<img src="/workspace/Project2-JavaGame/assets/images/color_palette.jpeg">
 </details>
 
 ### Fonts
-For the fonts, 
+For the fonts, Mochiy Pop P One designed by FONTDASU on googlr fonts.
 
 ### Structure
-The page is structured in a user-friendly and easy-to-learn. Upon arriving at the website the user sees a screen with the nav option to choose four seperate pages :
+The page is structured in a user-friendly and easy-to-learn manner. Upon arriving at the website the user sees a screen with the nav option to choose four seperate pages :
 
 - A homepage with 4 different views:
-- rules
-- A history page 
-- A game page 
-- A contact form
+- A homepage with a click link to rules of the game
+- A history page with a brief video outlining the history of the traditional game.
+- A game page to play the game in a responsive way.
+- A contact form to leave feedback.
 
 
 ### Wireframes
 
 <details><summary>Home screen</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/home_page.JPG">
 </details>
 <details><summary>Game screen</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/game_page.JPG">
 </details>
 <details><summary>History screen</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/history_page.JPG">
 </details>
 <details><summary>Contact screen</summary>
-<img src="">
+<img src="/workspace/Project2-JavaGame/assets/images/contact_page.JPG">
 </details>
 
 ## Technologies Used
