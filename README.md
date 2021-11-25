@@ -1,5 +1,7 @@
-<H1>Rock, Scissors, Paper</H1>
+<H1>Rock Scissors Paper, Challenge the Samurai !</H1>
+<img src="/workspace/Project2-JavaGame/assets/images/rock-paper-scissors rules.png">
 
+<p> This is a rock, scissors, paper website consisting of the game with some interesting origins of the games rules and history. Retro styling was used in a samurai theme in acknowledgement to the far east origins of the game and the computer game developers of the original retro combat games.
 
 ## Table of Content
 
