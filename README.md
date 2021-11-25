@@ -111,6 +111,7 @@ The page is structured in a user-friendly and easy-to-learn. Upon arriving at th
 </details>
 <details><summary>Contact screen</summary>
 <img src="">
+</details>
 
 ## Technologies Used
 

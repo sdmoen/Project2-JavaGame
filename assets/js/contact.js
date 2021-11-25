@@ -1,5 +1,5 @@
 /**
- * Sends data collected in contact form to email after the submit button is clicked calls the toggleMessage function
+ * data collected in contact form is sent to my email after the submit button is clicked calls the toggleMessage function
  * Code written from the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
  */
 

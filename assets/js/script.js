@@ -1,3 +1,5 @@
+//webdev tutorial used to help with coding rock, scissors game.
+
 var player_Score = 0;
 var samurai_Score = 0;
 var playerScore = document.getElementById("player-score");
