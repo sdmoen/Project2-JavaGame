@@ -258,6 +258,7 @@ header{
   }
 
   @media screen and (max-width: 320px) {
+   
     #player-tag{
       position:absolute;
       top:10px;
@@ -316,4 +317,25 @@ header{
     #img_2{
       display:none;
     }
+    .overtext {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      left:10%;
+      right:10%;
+      background: rgb(234 242 242);
+      transition: var(--transition);
+      visibility: hidden;
+      z-index: -10;
+}
+
+    .opentext {
+      visibility: visible;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
   }
