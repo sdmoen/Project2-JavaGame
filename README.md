@@ -34,7 +34,7 @@
 9. [Deployment](#deployment)
     1. [EmailJS API](#emailjs-api)
 10. [Credits](#credits)
-11. [Acknowledgments](#acknowledgments)
+
 
 ## Project Goals 
 
@@ -85,8 +85,8 @@ The game was designed to have a retro styling with a nod to past asian computer 
 </details>
 
 ### Fonts
-For the fonts, Mochiy Pop P One designed by FONTDASU on googlr fonts.
-
+For the fonts, Mochiy Pop P One designed by FONTDASU on google fonts.
+https://fonts.google.com/specimen/Mochiy+Pop+P+One?preview.text=Rock%20Scissors%20Paper,%20Challenge%20the%20Robot!&preview.text_type=custom#standard-styles.
 ### Structure
 The page is structured in a user-friendly and easy-to-learn manner. Upon arriving at the website the user sees a screen with the nav option to choose four seperate pages :
 
@@ -186,77 +186,30 @@ The site consists of four pages and one features on each page.
 <img src="/workspace/Project2-JavaGame/assets/images/email_received.JPG">
 </details>
 
-## Validation
+## Validation 
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
-<details><summary>Home</summary>
-<img src="">
-</details>
-<details><summary>Contact Us</summary>
-<img src="">
-</details>
-
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my custom CSS it passes with no errors.
 
-<details><summary>Full page</summary>
-<img src="">
-</details>
-<details><summary>style.css</summary>
-<img src="">
-</details>
-
 ### JavaScript Validation
-JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
-<details><summary>game-settings.js</summary>
-<img src="">
-</details>
-<details><summary>guessing-be.js</summary>
-<img src="">
-</details>
-<details><summary>contact.js</summary>
-<img src="">
-</details>
+JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. Bugs found were from simple typing mistakes and mistakes asigning variables and functions.
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-<details><summary>Home</summary>
-<img src="">
-</details>
-<details><summary>History</summary>
-<img src="">
-</details>
-<details><summary>Game</summary>
-<img src="">
-</details>
-<details><summary>Contact</summary>
-<img src="">
-</details>
-
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
 
-<details><summary>Home</summary>
-<img src="">
-</details>
-<details><summary>History</summary>
-<img src="">
-</details>
-<details><summary>Game</summary>
-<img src="">
-</details>
-<details><summary>Contact</summary>
-<img src="">
-</details>
-
 ### Performing tests on various devices 
 The website was tested on the following devices:
--
+-Samsung S20
+-HP elitebook
+-Dell 24" monitor
 
-In addition, the website was tested using the Google Chrome Developer Tools Device Toggling option for all available device options.
+In addition, the website was tested using the Google Chrome Developer Tools Device.
 
 ### Browser Compatability
 The website was tested on the following browsers:
@@ -265,72 +218,17 @@ The website was tested on the following browsers:
 - Mozilla Firefox
 - Microsoft Edge
 
-### Testing user stories
-
-1. As a user, I want to be able to 
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Home screen | Click on the rules button | ??? | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-2. As a user, I want to play and beat
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Game screen |  | | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-3. As a user, I want to be able to 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Game screen |  |  | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-
-4. As a site owner, I want users to be able to find us on social media.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Footer | Scroll down to the footer section | See social media links | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
-</details>
-
-## Bugs
-
-| **Bug** | **Fix** |
-| ----------- | ----------- |
-| The score doesn't tally  |
-| 
-
 ## Deployment
-The website was deployed using GitHub Pages by following these steps:
-
+The website was deployed using GitHub.
 
 ### EmailJS API
-1. Create an account at emailjs.com
-2. Add new email service, make note of the contact_service id
-3. Add a new email template, make note of the contact_form id
-4. Go the the integration dashboard, make note of your user id
-5. Load the EmailJS SDK in the head of your HTML file
-6. In JavaScript create a function that listens to a submit event and then initializes the SDK with your user id (emailjs.init('YOUR_USER_ID');) and submits the form (emailjs.sendForm('contact_service', 'contact_form', this);)
+Contact form javascript was created using email.js.
 
 ## Credits
-All images, from google images.
-
-### Media
-- 
+-All images, from google images.    
+-ColorHunt for color palette.
+-JavaScript assisted from webdev, Ania Lubow(youtube Videos) and free code camp tutorials.  
+-Email.js
 
 ### Code
 - Webdev
@@ -338,4 +236,4 @@ All images, from google images.
 - JavaScript code for bootstrap modal usage from https://getbootstrap.com/docs/5.0/components/modal/#via-javascript
 - Email sending JavaScript API code was written with the help of the official EmailJS tutorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
 
-## Acknowledgments
+Special thanks to Mentor Mo Shami for providing a benchmark to helping me raise standards.
