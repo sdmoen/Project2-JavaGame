@@ -49,7 +49,6 @@ header{
   left:10%;
   right:10%;
   background: rgb(234 242 242);
-  border:solid black;
   transition: var(--transition);
   visibility: hidden;
   z-index: -10;
@@ -317,25 +316,4 @@ header{
     #img_2{
       display:none;
     }
-    .overtext {
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      position: absolute;
-      left:10%;
-      right:10%;
-      background: rgb(234 242 242);
-      transition: var(--transition);
-      visibility: hidden;
-      z-index: -10;
-}
-
-    .opentext {
-      visibility: visible;
-      z-index: 10;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-}
   }
