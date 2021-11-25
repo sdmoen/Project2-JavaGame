@@ -3,6 +3,8 @@
 
 <p> This is a rock, scissors, paper website consisting of the game with some interesting origins of the games rules and history. Retro styling was used in a samurai theme in acknowledgement to the far east origins of the game and the computer game developers of the original retro combat games.
 
+<a href src="https://sdmoen.github.io/Project2-JavaGame/">link to website
+
 ## Table of Content
 
 1. [Project Goals](#project-goals)
