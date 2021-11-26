@@ -85,7 +85,7 @@ The game was designed to have a retro styling with a nod to past asian computer 
 
 <details><summary>Colour palette</summary>
 - inspiration taken from colorhunt
-<img src="/workspace/Project2-JavaGame/assets/images/color_palette.jpeg">
+<img src="assets/images/color_palette.jpeg">
 </details>
 
 ### Fonts
@@ -104,16 +104,16 @@ The page is structured in a user-friendly and easy-to-learn manner. Upon arrivin
 ### Wireframes
 
 <details><summary>Home screen</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/home_page.JPG">
+<img src="assets/images/home_page.jpg">
 </details>
 <details><summary>Game screen</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/game_page.JPG">
+<img src="assets/images/game_page.jpg">
 </details>
 <details><summary>History screen</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/history_page.JPG">
+<img src="assets/images/history_page.jpg">
 </details>
 <details><summary>Contact screen</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/contact_page.JPG">
+<img src="assets/images/contact_page.jpg">
 </details>
 
 ## Technologies Used
@@ -144,7 +144,7 @@ The site consists of four pages and one features on each page.
 - Consists of Home, History, Game and Contact
 
 <details><summary>NavMenu</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/nav_menu.JPG">
+<img src="assets/images/nav_menu.jpg">
 </details>
 
 ### Footer
@@ -152,7 +152,7 @@ The site consists of four pages and one features on each page.
 - Consists of a section providing social media links
 
 <details><summary>Footer</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/footer.JPG">
+<img src="assets/images/footer.jpg">
 </details>
 
 ### Home screen
@@ -160,8 +160,8 @@ The site consists of four pages and one features on each page.
 - Provides a striking image of a mirrored samurai warrior which catches the attention of the player. An aludes to a combative game.
 
 <details><summary>Home screen</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/home_screen.JPG">
-<img src="/workspace/Project2-JavaGame/assets/images/rules.JPG">
+<img src="assets/images/home_screen.jpg">
+<img src="assets/images/rules.jpg">
 </details>
 
 ### Game screen
@@ -172,22 +172,22 @@ The site consists of four pages and one features on each page.
     - samurai image 
 
 <details><summary>Game screen</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/game_screen.JPG">
+<img src="assets/images/game_screen.jpg">
 </details>
 
 ### Contact form
 - A way for the user to provide feedback
 
 <details><summary>Contact Form</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/contact_screen.JPG">
+<img src="assets/images/contact_screen.jpg">
 </details>
 
 ### Form confirmation
 - Provides the user with a thank you message after the form has been submitted 
 
 <details><summary>Form confirmation</summary>
-<img src="/workspace/Project2-JavaGame/assets/images/feedback_screen.JPG">
-<img src="/workspace/Project2-JavaGame/assets/images/email_received.JPG">
+<img src="assets/images/feedback_screen.jpg">
+<img src="assets/images/email_received.jpg">
 </details>
 
 ## Validation 
