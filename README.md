@@ -161,6 +161,7 @@ The site consists of four pages and one features on each page.
 
 <details><summary>Home screen</summary>
 <img src="assets/images/home_screen.jpg">
+<br>
 <img src="assets/images/rules.jpg">
 </details>
 
